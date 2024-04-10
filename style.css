@@ -289,6 +289,8 @@ opacity: 0.3;
 .projects_radio {
     width: 800px;
     margin: 0 auto;
+    transition: 1s;
+    min-height: 700px;
 }
 
 .projects_radio input {
@@ -378,4 +380,21 @@ display: none;
 
 #spisok_all_but:hover {
 text-decoration: none;
+}
+
+
+
+
+
+
+.portfolio article {
+
+  opacity: 0;
+  animation: ani 2.5s forwards;
+
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
